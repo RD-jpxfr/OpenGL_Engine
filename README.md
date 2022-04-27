@@ -1,2 +1,2 @@
 # OpenGL_Engine
-a 3D OpenGL engine for small scenes
+A 3D OpenGL engine for small scenes
