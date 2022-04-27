@@ -1,0 +1,24 @@
+<scene>
+    <lights>
+        <light>
+            <type type="DIRECTIONAL"/>
+            <corDifuse R='0.8' G='0.8' B='0.8'/>
+            <corAmbience R='0.2' G='0.2' B='0.2'/>
+            <atribs dX='1' dY='1' dZ='1'/>
+        </light>
+    </lights>
+    <group>
+        <scale X='-600' Y='-600' Z='-600' />
+        <models>
+            <model file="box.3d" emis="True" texture="sky (2).jpg" />
+        </models>
+    </group>
+    <!--Saturn-->
+    <group>
+        <rotate angle='180' axisX='0' axisY='0' axisZ='1' />
+        <scale X='6.7' Y='6.7' Z='6.7' />
+        <models>
+            <model file="cone.3d" emis="False" texture="corneto.jpg" />
+        </models>
+    </group>
+</scene>
